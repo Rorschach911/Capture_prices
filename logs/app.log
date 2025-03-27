@@ -1,0 +1,76 @@
+2025-03-27 17:02:16,406 - taobao_price_checker - ERROR - 主窗口缺少open_button组件
+2025-03-27 17:02:16,407 - taobao_price_checker - INFO - 应用程序初始化完成
+2025-03-27 17:05:24,094 - taobao_price_checker - INFO - 应用程序初始化完成
+2025-03-27 17:05:36,614 - taobao_price_checker - INFO - 任务已启动
+2025-03-27 17:05:36,615 - taobao_price_checker - ERROR - 执行任务时出错: 'ExcelHandler' object has no attribute 'read_file'
+2025-03-27 17:05:49,179 - taobao_price_checker.browser_handler - INFO - 浏览器已关闭
+2025-03-27 17:41:51,959 - taobao_price_checker - INFO - 应用程序初始化完成
+2025-03-27 17:42:04,625 - taobao_price_checker - ERROR - 执行任务时出错: 'PriceCheckerApp' object has no attribute 'selected_file'
+2025-03-27 17:42:04,625 - taobao_price_checker - INFO - 任务已启动
+2025-03-27 17:42:37,477 - taobao_price_checker.browser_handler - INFO - 浏览器已关闭
+2025-03-27 17:51:32,491 - taobao_price_checker - ERROR - 设置信号连接时出错: 'function' object has no attribute 'connect'
+2025-03-27 17:51:32,493 - taobao_price_checker - ERROR - 初始化应用程序时出错: 'function' object has no attribute 'connect'
+2025-03-27 17:51:32,493 - root - ERROR - 程序启动失败: 'function' object has no attribute 'connect'
+2025-03-27 17:53:29,038 - taobao_price_checker - INFO - 应用程序初始化完成
+2025-03-27 17:53:41,335 - taobao_price_checker - INFO - 任务已启动
+2025-03-27 17:53:43,379 - taobao_price_checker.excel_handler - INFO - 成功读取Excel文件，共2行数据
+2025-03-27 17:53:46,214 - taobao_price_checker.browser_handler - INFO - 浏览器初始化成功
+2025-03-27 17:53:46,214 - taobao_price_checker - ERROR - 执行任务时出错: 'url_a'
+2025-03-27 17:53:48,575 - taobao_price_checker.browser_handler - INFO - 浏览器已关闭
+2025-03-27 17:54:13,580 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029BF4FD8290>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c79233f62473ee46c349d69711f74509
+2025-03-27 17:57:06,833 - taobao_price_checker - INFO - 应用程序初始化完成
+2025-03-27 17:59:52,656 - taobao_price_checker - INFO - 任务已启动
+2025-03-27 17:59:53,301 - taobao_price_checker.excel_handler - INFO - 成功读取Excel文件，共2行数据
+2025-03-27 17:59:54,962 - taobao_price_checker.browser_handler - INFO - 浏览器初始化成功
+2025-03-27 18:00:41,717 - taobao_price_checker.browser_handler - WARNING - 等待元素超时 (class: purchasePanel--cG3DU6bX normalPanel--tH79cfP4 normalPanel  )
+2025-03-27 18:00:41,794 - taobao_price_checker.price_fetcher - ERROR - 无法获取价格面板ID
+2025-03-27 18:01:14,052 - taobao_price_checker.browser_handler - WARNING - 等待元素超时 (class: purchasePanel--cG3DU6bX normalPanel--tH79cfP4 normalPanel  )
+2025-03-27 18:01:14,119 - taobao_price_checker.price_fetcher - ERROR - 无法获取价格面板ID
+2025-03-27 18:01:35,810 - taobao_price_checker.browser_handler - ERROR - 查找元素失败 (selector: [class='valueItemText--HiKnUqGa f-els-1']): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+	GetHandleVerifier [0x00007FF772174C25+3179557]
+	(No symbol) [0x00007FF771DD88A0]
+	(No symbol) [0x00007FF771C691CA]
+	(No symbol) [0x00007FF771C54F85]
+	(No symbol) [0x00007FF771C79F94]
+	(No symbol) [0x00007FF771CEF9DF]
+	(No symbol) [0x00007FF771D0FBE2]
+	(No symbol) [0x00007FF771CE7A03]
+	(No symbol) [0x00007FF771CB06D0]
+	(No symbol) [0x00007FF771CB1983]
+	GetHandleVerifier [0x00007FF7721D67CD+3579853]
+	GetHandleVerifier [0x00007FF7721ED1D2+3672530]
+	GetHandleVerifier [0x00007FF7721E2153+3627347]
+	GetHandleVerifier [0x00007FF771F4092A+868650]
+	(No symbol) [0x00007FF771DE2FFF]
+	(No symbol) [0x00007FF771DDF4A4]
+	(No symbol) [0x00007FF771DDF646]
+	(No symbol) [0x00007FF771DCEAA9]
+	BaseThreadInitThunk [0x00007FF9416753E0+16]
+	RtlUserThreadStart [0x00007FF94208485B+43]
+
+2025-03-27 18:01:35,813 - taobao_price_checker.sku_fetcher - ERROR - 无法找到SKU元素
+2025-03-27 18:01:35,907 - taobao_price_checker.browser_handler - ERROR - 打开页面失败 https://detail.tmall.com/item.htm?fpChannel=101&fpChannelSig=4c5f04129d5ffa5caf589bf81e5fe3761a371a6b&id=866573942079: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF772174C25+3179557]
+	(No symbol) [0x00007FF771DD88A0]
+	(No symbol) [0x00007FF771C68FFC]
+	(No symbol) [0x00007FF771CAF8DF]
+	(No symbol) [0x00007FF771CE7AF2]
+	(No symbol) [0x00007FF771CE244E]
+	(No symbol) [0x00007FF771CE14F9]
+	(No symbol) [0x00007FF771C355E5]
+	GetHandleVerifier [0x00007FF7721D67CD+3579853]
+	GetHandleVerifier [0x00007FF7721ED1D2+3672530]
+	GetHandleVerifier [0x00007FF7721E2153+3627347]
+	GetHandleVerifier [0x00007FF771F4092A+868650]
+	(No symbol) [0x00007FF771DE2FFF]
+	(No symbol) [0x00007FF771C341FF]
+	GetHandleVerifier [0x00007FF77225FA28+4141608]
+	BaseThreadInitThunk [0x00007FF9416753E0+16]
+	RtlUserThreadStart [0x00007FF94208485B+43]
+
+2025-03-27 18:01:35,910 - taobao_price_checker.sku_fetcher - ERROR - 无法打开页面: https://detail.tmall.com/item.htm?fpChannel=101&fpChannelSig=4c5f04129d5ffa5caf589bf81e5fe3761a371a6b&id=866573942079
+2025-03-27 18:01:35,911 - taobao_price_checker - ERROR - 执行任务时出错: 'DataComparator' object has no attribute 'check_price_difference'
